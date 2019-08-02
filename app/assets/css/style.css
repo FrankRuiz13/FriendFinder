@@ -1,4 +1,32 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Libre Baskerville', serif !important;
 }
+
+
+.hero-section {
+   filter: grayscale(20%);
+    background: url("../images/background.jpg") 50% no-repeat;
+    background-size: cover;
+    background-position: left 10% bottom 10%;
+    box-shadow: 2px 2px 7px black;
+    height: 60vh;
+    text-align: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .hero-section .hero-section-text {
+    color: #fefefe;
+    text-shadow: 1px 1px 2px #0a0a0a;
+  }
+  
+  
